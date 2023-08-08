@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+
+}
+body
+{
+    justify-content: space-between;
+    min-height: 100vh;
+    background: #96e0e9d9;
+    
+}
+#first{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.list
+{
+    background: #8298e0;
+    width: 650px;
+    padding: 10px;
+    border-radius: 16px;
+    margin-left: 150px;
+}
+.wrapper
+{
+    background: #8298e0;
+    width: 450px;
+    border-radius: 16px;
+    margin-left: 250px;
+
+
+}
+.form 
+{
+    padding: 25px 30px;
+}
+.form header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #FFEB3B;
+}
+.form form{
+    margin: 20px 0;
+}
+
+.form .name-details
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form .field label{
+    margin-bottom: 2px;
+    font-weight:bolder;
+}
+.form .field
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;   
+}
+.form .field input{
+    outline: none;
+}
+.form .input input:focus,
+.form .input input:valid{
+  border-color:rgba(97, 38, 92, 0);
+}
+.form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+
+}
+.form .image input{
+    font-size: 17px;
+}
+.form .button input{
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    background:#FFEB3B;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight:bold;
+}
+
+
+#task-list
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid;
+
+}
+th, td{
+    padding: 10px;
+}
+button{
+    background-color: #FFEB3B;
+    color: red;
+    padding: 5px;
+}
+#monk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
